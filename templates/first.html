@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+    <body bgcolor=#d4a3ae>
+        <h3>Titanic Survival Prediction Form</h3>
+    <div> 
+        <form method="POST" action="{{url_for('survival')}}" >
+            <label for="Pclass">Pclass</label>
+            <input type="text"  name="Pclass" placeholder="Pclass">
+            <br>
+            <label for="Gender">Gender</label>
+            <input type="text" name="Gender" placeholder="Gender">
+            <br>
+            <label for="Age">Age</label>
+            <input type="text" name="Age" placeholder="Age">
+            <br>
+            <label for="SibSp">SibSp</label>
+            <input type="text" name="SibSp" placeholder="SibSp">
+            <br>
+            <label for="Parch">Parch</label>
+            <input type="text" name="Parch" placeholder="Parch">
+            <br>
+            <label for="Fare">Fare</label>
+            <input type="text" name="Fare" placeholder="Fare">
+            <br>
+            <label for="Embarked">Embarked</label>
+            <input type="text" name="Embarked" placeholder="Embarked">
+            <br>
+            </select>
+            <br>
+        
+            <input type="submit" value="survival" onclick="survival()">
+            
+        </form>
+    </div>
+    </body>
+</html>
