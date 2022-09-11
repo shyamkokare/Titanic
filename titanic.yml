@@ -1,4 +1,4 @@
-name: 
+name: New_env
 channels:
   - conda-forge
   - defaults
@@ -169,4 +169,4 @@ dependencies:
   - zipp=3.8.0=py39haa95532_0
   - zlib=1.2.12=h8cc25b3_2
   - zstd=1.5.2=h19a0ad4_0
-prefix: C:\Users\Manjusha\anaconda3\envs\py3912
+prefix:
